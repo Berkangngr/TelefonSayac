@@ -1,0 +1,30 @@
+body {
+    background-image: url(image/umaong-mirip-dBxdumzKgTw-unsplash.jpg); /* Arka plan rengini gri tonlarından biri yap */
+    color: white !important;
+    transition: background-image 1s ease; /* Arka plan değişimini 1 saniyede ve yumuşak bir şekilde gerçekleştir */
+  }
+  
+
+  .center-div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.button-c {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button-c:hover {
+  background-color: rgba(0, 0, 0, 0.37);
+}
+.audıo {
+  background-color: transparent !important;
+}

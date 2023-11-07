@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Telefon Sayacı</title>
+</head>
+<body>
+    
+    
+    <div class="center-div">
+            <div>
+          <p> “Çalışmaya başladığınızdan beri telefonunuz <span id="variable" style="font-size:x-large;"> 0 </span> kere dikkatinizi dağıttı”</p>
+             <button class="button-c" onclick="phoneClick()">Phone</button>
+        </div>
+        <div >
+          Çalışırken zihninizi rahatlatmak ve daha iyi odaklanmak için aşağıdaki müziklerden faydalanın.
+        </div>
+        <div class="voice mt-3">
+          <audio class="audıo" controls autoplay onplay="changeBackgroundRain()">
+            <source src="mp3/Karisik-Sesler-Gok-Gurultulu-Saganak-Yagmur-Sesi.mp3" type="audio/ogg">
+            <source src="mp3/Karisik-Sesler-Gok-Gurultulu-Saganak-Yagmur-Sesi.mp3" type="audio/mpeg">
+          </audio>
+          <audio class="audıo" controls autoplay onplay="changeBackgroundSea()">
+            <source src="mp3/y2mate.com - Okyanus Sesi_144p.3gp" type="audio/ogg">
+            <source src="mp3/y2mate.com - Okyanus Sesi_144p.3gp" type="audio/mpeg">
+          </audio>
+        </div>
+      
+    </div>
+      
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
